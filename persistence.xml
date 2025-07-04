@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             version="3.0">
+
+    <persistence-unit name="myPU" transaction-type="RESOURCE_LOCAL">
+
+        <!-- Hibernate: triển khai JPA -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <!-- Liệt kê các Entity classes -->
+        <class>model.User</class>
+        <class>model.Role</class>
+        <class>model.Address</class>
+
+        <!-- Cấu hình kết nối DB -->
+        <properties>
+
+        <!-- Driver SQL Server -->
+        <property name="jakarta.persistence.jdbc.driver"
+                value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+
+        <!-- URL kết nối -->
+        <property name="jakarta.persistence.jdbc.url"
+                value="jdbc:sqlserver://localhost:1433;databaseName=YourDB"/>
+
+        <!-- Thông tin đăng nhập -->
+        <property name="jakarta.persistence.jdbc.user" value="sa"/>
+        <property name="jakarta.persistence.jdbc.password" value="yourPassword"/>
+
+        <!-- Dialect cho SQL Server -->
+        <property name="hibernate.dialect"
+                value="org.hibernate.dialect.SQLServerDialect"/>
+
+        <!-- Không tự động tạo bảng -->
+        <property name="hibernate.hbm2ddl.auto" value="none"/>
+
+        <!-- Hiển thị SQL trong console -->
+        <property name="hibernate.show_sql" value="true"/>
+
+        </properties>
+    </persistence-unit>
+</persistence>
+

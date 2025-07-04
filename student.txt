@@ -1,0 +1,12 @@
+BIZ004, Diana, Vietnam, QuangTri, DongHa, LeDuan, 7.0, 7.5
+IT001, Chon, asd, asdad, adasd, aa, 9.6, 1.0
+IT004, David, Vietnam, Hue, PhuHoi, LeLoi, 7.5, 8.0
+IT002, Bob, Vietnam, DaNang, ThanhKhe, DienBienPhu, 7.8, 8.2
+BIZ001, Anna, Vietnam, DaNang, HaiChau, TranPhu, 8.0, 8.5
+BIZ002, Ben, Vietnam, DaNang, NguHanhSon, HoangSa, 7.8, 9.0
+IT013, Cong Hieu, vn, QuangBinh, ngh, lvh, 8.0, 9.0
+IT111, Nam, ussa, bankok, siuu, glusd, 8.0, 9.1
+BIZ003, Chris, Vietnam, DaNang, LienChieu, TonDucThang, 8.4, 8.8
+BIZ005, Ella, Vietnam, QuangBinh, DongHoi, NguyenHue, 8.5, 9.0
+BIZ009, Thanh, Vn, Da Nan, Hai chau, LE Lai, 9.0, 8.0
+IT005, Eve, Vietnam, QuangNam, TamKy, PhanChuTrinh, 8.8, 8.5
